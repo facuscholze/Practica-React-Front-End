@@ -1,0 +1,272 @@
+#root {
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  
+}
+
+.claro {
+  background-color: white;
+  color: black;
+  min-width: 100%;
+  
+}
+.oscuro {
+  background-color:rgb(47, 47, 47);
+  color: white;
+  
+}
+.claro button{
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin: 10px 10px;
+  
+}
+.oscuro button{
+  background-color:rgb(47, 47, 47);
+  color: white;
+  border-color: white;
+  margin: 10px 10px;
+}
+
+ .claro .card {
+  background-color: #888;
+  width: 20%;
+  color: black;
+  font-size: 20px;
+  border: 3px solid black;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+.oscuro .card{
+  background-color:rgb(255, 255, 255);
+  width: 20%;
+  color: black;
+  font-size: 20px;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.cartasclaro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
+  margin-top: 100px;
+  
+}
+
+.cartasoscuro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
+  margin-top: 100px;
+  
+}
+.card img {
+  max-width: 100%;
+  height: auto; 
+  margin-bottom: 10px; 
+}
+.detalles img {
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+.claro .detalles {
+  color: black;
+  border-top: 3px solid black;
+  border-radius: 10px;}
+
+  .oscuro .detalles {
+    color: rgb(255, 255, 255);
+    border-top: 3px solid black;
+    border-radius: 10px;}
+
+    .contactanos{
+      height: 100vh;;
+
+    }
+    .fav{
+    height: 100vh;
+  }
+
+.claro .navbar {
+  background-color: #000000; 
+  color: white; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.oscuro .navbar {
+  background-color:rgb(100, 100, 100); 
+  color: white; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.theme-button {
+  background-color: #007BFF; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;background-color: #0056b3; 
+  transition: color 0.9s, border-color 0.3s;
+}
+
+.theme-button:hover {
+  background-color: #0056b3; 
+  transition: color 0.3s, border-color 0.3s;
+}
+
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+
+
+
+.navbar-item a {
+  padding: 10px 20px; 
+  border: 2px solid white; 
+  border-radius: 5px; 
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+  transition: color 0.3s, border-color 0.3s; 
+}
+
+.navbar-item a:hover {
+  color: #007BFF; 
+  border-color: #007BFF; 
+}
+
+.claro footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000; 
+  color: #fff; 
+  padding: 0px; 
+  font-size: 12px;
+}
+.oscuro footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(100, 100, 100);
+  color: #fff; 
+  padding: 0px; 
+  font-size: 12px;
+}
+.power {
+  display: inline-block; 
+  border: 5px solid #007BFF; 
+  border-radius: 10px;
+  margin: 5px; 
+  padding: 1px;
+  font-weight: bold;
+  
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ffffff;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.my-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
